@@ -203,7 +203,7 @@ if not results or len(results) == 0:
 
 Sau khi hoàn thành `template.py` và `tools.py`, chạy lệnh pytest:
 ```bash
-python3 -m pytest Day04-Prompt-Engineering-Tool-Calling/02-lab/autograder/test_agent.py -v
+python3 -m pytest autograder/test_agent.py -v
 ```
 
 Nếu 8/8 test cases báo `PASSED`, chúc mừng bạn đã hoàn thành xuất sắc Lab #4! 🎉
